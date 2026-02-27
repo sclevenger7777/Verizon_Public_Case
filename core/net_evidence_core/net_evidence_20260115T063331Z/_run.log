@@ -1,0 +1,9 @@
+outdir=/data/data/com.termux/files/home/storage/shared/net_evidence_20260115T063331Z
+utc=20260115T063331Z
+uid=10508 user=u0_a508
+rish=/data/data/com.termux/files/home/bin/rish
+ping4=/system/bin/ping ping6=none
+interfaces: none
+done
+bundle_dir=/data/data/com.termux/files/home/storage/shared/net_evidence_20260115T063331Z
+bundle_tgz=/data/data/com.termux/files/home/storage/shared/net_evidence_20260115T063331Z.tar.gz

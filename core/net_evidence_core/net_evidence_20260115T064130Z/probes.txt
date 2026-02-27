@@ -1,0 +1,17 @@
+=== iface= ===
+ping: Warning: source address might be selected on device other than .
+ping: unknown iface 
+ping4 iface= FAILED
+ping6 iface= SKIP(no ping6)
+curl: option --interface: blank argument where content is expected
+curl: try 'curl --help' or 'curl --manual' for more information
+iface= fam=v4 bytes=1048576 FAILED
+curl: option --interface: blank argument where content is expected
+curl: try 'curl --help' or 'curl --manual' for more information
+iface= fam=v6 bytes=1048576 FAILED
+curl: option --interface: blank argument where content is expected
+curl: try 'curl --help' or 'curl --manual' for more information
+iface= fam=v4 bytes=10485760 FAILED
+curl: option --interface: blank argument where content is expected
+curl: try 'curl --help' or 'curl --manual' for more information
+iface= fam=v6 bytes=10485760 FAILED
