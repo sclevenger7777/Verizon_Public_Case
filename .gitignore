@@ -1,0 +1,11 @@
+# Keep raw, high-volume, or sensitive evidence local-only
+raw_candidates/
+*.pcap
+*.pcapng
+*.tar
+*.tar.gz
+*.zip
+
+# Editor / shell noise
+*~
+.DS_Store
