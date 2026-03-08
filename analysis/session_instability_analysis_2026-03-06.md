@@ -84,7 +84,7 @@ This is important. The default data APN remains Verizon’s own carrier-defined 
 
 The device behavior and active APN records are consistent with a locked or carrier-controlled APN configuration. The data path remains on Verizon-defined APNs and not on a user-created custom APN.
 
-If Verizon attributes the condition to customer APN modification, that claim is not supported by the telephony state shown here.
+If Verizon attributes the condition to customer APN modification, that claim is not supk⁵6tported by the telephony state shown here.
 
 ## IP addressing and routing
 

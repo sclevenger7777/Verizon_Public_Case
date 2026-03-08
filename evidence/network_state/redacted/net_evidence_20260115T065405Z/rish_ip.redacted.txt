@@ -1,0 +1,152 @@
+uid=2000(shell) gid=2000(shell) groups=2000(shell),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid),3012(readtracefs) context=u:r:shell:s0
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+dummy0           UNKNOWN        fe80::80a0:6aff:fe1f:993e/64 
+ifb0             DOWN           
+ifb1             DOWN           
+tunl0@NONE       DOWN           
+gre0@NONE        DOWN           
+gretap0@NONE     DOWN           
+erspan0@NONE     DOWN           
+ip_vti0@NONE     DOWN           
+ip6_vti0@NONE    DOWN           
+sit0@NONE        DOWN           
+ip6tnl0@NONE     DOWN           
+ip6gre0@NONE     DOWN           
+rmnet_ipa0       UNKNOWN        
+epdg7            DOWN           
+epdg8            DOWN           
+epdg9            DOWN           
+epdg10           DOWN           
+epdg11           DOWN           
+epdg12           DOWN           
+
+epdg13           DOWN           epdg0            UP             fe80::2647:f8d5:7ed7:b4ce/64 
+epdg1            DOWN           
+epdg2            DOWN           
+epdg3            DOWN           
+epdg4            DOWN           
+epdg5            DOWN           
+epdg6            DOWN           
+wlan0            UP             [REDACTED_LAN_IPV4]/24 [REDACTED_HOME_ULA_IPV6]/64 [REDACTED_HOME_ULA_IPV6]/64 [REDACTED_HOME_GUA_IPV6]/64 [REDACTED_HOME_GUA_IPV6]/64 fe80::7062:1fff:febd:a48/64 
+p2p0             DOWN           
+wifi-aware0      DOWN           
+rmnet_data0@rmnet_ipa0 UNKNOWN        2600:100a:1050:563b:d84d:f858:52ae:dbc6/64 fe80::d045:7bff:fec5:a2f0/64 
+rmnet_data1@rmnet_ipa0 DOWN           
+rmnet_data2@rmnet_ipa0 DOWN           
+rmnet_data3@rmnet_ipa0 DOWN           
+rmnet_data4@rmnet_ipa0 DOWN           
+rmnet_data5@rmnet_ipa0 DOWN           
+rmnet_data6@rmnet_ipa0 DOWN           
+rmnet_data7@rmnet_ipa0 DOWN           
+rmnet_data8@rmnet_ipa0 DOWN           
+rmnet_data9@rmnet_ipa0 DOWN           
+rmnet_data10@rmnet_ipa0 DOWN           
+rmnet_data11@rmnet_ipa0 DOWN           
+rmnet_data12@rmnet_ipa0 DOWN           
+rmnet_data13@rmnet_ipa0 DOWN           
+rmnet_data14@rmnet_ipa0 DOWN           
+default via [REDACTED_LAN_GATEWAY] dev wlan0 table 1045 proto static 
+192.168.1.0/24 dev wlan0 table 1045 proto static scope link 
+192.168.1.0/24 dev wlan0 table 1000000045 proto static scope link 
+224.0.0.0/24 dev wlan0 table 1000000045 proto static scope link 
+141.207.227.233 via [REDACTED_LAN_GATEWAY] dev wlan0 table 99 proto static 
+224.0.0.0/24 dev rmnet_data0 table 1000000129 proto static scope link 
+default dev dummy0 table 1002 proto static scope link 
+192.168.1.0/24 dev wlan0 proto kernel scope link src [REDACTED_LAN_IPV4] 
+local 127.0.0.0/8 dev lo table local proto kernel scope host src 127.0.0.1 
+local 127.0.0.1 dev lo table local proto kernel scope host src 127.0.0.1 
+broadcast 127.255.255.255 dev lo table local proto kernel scope link src 127.0.0.1 
+local [REDACTED_LAN_IPV4] dev wlan0 table local proto kernel scope host src [REDACTED_LAN_IPV4] 
+broadcast 192.168.1.255 dev wlan0 table local proto kernel scope link src [REDACTED_LAN_IPV4] 
+[REDACTED_HOME_GUA_PREFIX] dev wlan0 table 1045 proto kernel metric 256 expires 234sec pref medium
+[REDACTED_HOME_GUA_PREFIX] dev wlan0 table 1045 proto static metric 1024 pref medium
+2605:59c8:49b4:e100::/56 via fe80::7624:9fff:fe02:8540 dev wlan0 table 1045 proto ra metric 1024 expires 233sec pref high
+[REDACTED_HOME_ULA_PREFIX] dev wlan0 table 1045 proto kernel metric 256 pref medium
+[REDACTED_HOME_ULA_PREFIX] dev wlan0 table 1045 proto static metric 1024 pref medium
+[REDACTED_HOME_ULA_SUPERPREFIX] via fe80::7624:9fff:fe02:8540 dev wlan0 table 1045 proto ra metric 1024 expires 233sec pref high
+fe80::/64 dev wlan0 table 1045 proto kernel metric 256 pref medium
+fe80::/64 dev wlan0 table 1045 proto static metric 1024 pref medium
+default via fe80::7624:9fff:fe02:8540 dev wlan0 table 1045 proto ra metric 1024 expires 233sec hoplimit 64 pref high
+[REDACTED_HOME_GUA_PREFIX] dev wlan0 table 1000000045 proto static metric 1024 pref medium
+[REDACTED_HOME_ULA_PREFIX] dev wlan0 table 1000000045 proto static metric 1024 pref medium
+fe80::/64 dev wlan0 table 1000000045 proto static metric 1024 pref medium
+2600:100a:1050:563b::/64 dev rmnet_data0 table 1129 proto kernel metric 256 pref medium
+2600:100a:1050:563b::/64 dev rmnet_data0 table 1129 proto static metric 1024 pref medium
+fe80::/64 dev rmnet_data0 table 1129 proto kernel metric 256 pref medium
+default via fe80::2 dev rmnet_data0 table 1129 proto static metric 1024 mtu 1428 pref medium
+default via fe80::1029:221e:ac4a:a23a dev rmnet_data0 table 1129 proto ra metric 1024 expires 60943sec hoplimit 64 pref medium
+2600:100a:1050:563b::/64 dev rmnet_data0 table 1000000129 proto static metric 1024 pref medium
+fe80::/64 dev dummy0 table 1002 proto kernel metric 256 pref medium
+default dev dummy0 table 1002 proto static metric 1024 pref medium
+fe80::/64 dev epdg0 table 1023 proto kernel metric 256 pref medium
+local ::1 dev lo table local proto kernel metric 0 pref medium
+local 2600:100a:1050:563b:d84d:f858:52ae:dbc6 dev rmnet_data0 table local proto kernel metric 0 pref medium
+local [REDACTED_HOME_GUA_IPV6] dev wlan0 table local proto kernel metric 0 pref medium
+local [REDACTED_HOME_GUA_IPV6] dev wlan0 table local proto kernel metric 0 pref medium
+local [REDACTED_HOME_ULA_IPV6] dev wlan0 table local proto kernel metric 0 pref medium
+local [REDACTED_HOME_ULA_IPV6] dev wlan0 table local proto kernel metric 0 pref medium
+local fe80::2647:f8d5:7ed7:b4ce dev epdg0 table local proto kernel metric 0 pref medium
+local fe80::7062:1fff:febd:a48 dev wlan0 table local proto kernel metric 0 pref medium
+local fe80::80a0:6aff:fe1f:993e dev dummy0 table local proto kernel metric 0 pref medium
+local fe80::d045:7bff:fec5:a2f0 dev rmnet_data0 table local proto kernel metric 0 pref medium
+multicast ff00::/8 dev dummy0 table local proto kernel metric 256 pref medium
+multicast ff00::/8 dev epdg0 table local proto kernel metric 256 pref medium
+multicast ff00::/8 dev rmnet_data0 table local proto kernel metric 256 pref medium
+multicast ff00::/8 dev wlan0 table local proto kernel metric 256 pref medium
+0:	from all lookup local 
+10000:	from all fwmark 0xc0000/0xd0000 lookup 99 
+11000:	from all iif lo oif dummy0 uidrange 0-0 lookup 1002 
+11000:	from all iif lo oif rmnet_data0 uidrange 0-0 lookup 1129 
+11000:	from all iif lo oif wlan0 uidrange 0-0 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 1000-1000 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10118-10118 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10254-10254 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10255-10255 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10275-10275 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10348-10348 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 10511-10511 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 15010118-15010118 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 15010255-15010255 lookup 1045 
+15040:	from all fwmark 0x1008f/0x1ffff iif lo uidrange 15010275-15010275 lookup 1045 
+16000:	from all fwmark 0x10063/0x1ffff iif lo lookup 97 
+16000:	from all fwmark 0xd008c/0xdffff iif lo lookup 1129 
+16000:	from all fwmark 0x1008f/0x1ffff iif lo lookup 1045 
+17000:	from all iif lo oif dummy0 lookup 1002 
+17000:	from all fwmark 0xc0000/0xc0000 iif lo oif rmnet_data0 lookup 1129 
+17000:	from all iif lo oif wlan0 lookup 1045 
+18000:	from all fwmark 0x0/0x10000 lookup 99 
+19000:	from all fwmark 0x0/0x10000 lookup 98 
+20000:	from all fwmark 0x0/0x10000 lookup 97 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 1000-1000 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10118-10118 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10254-10254 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10255-10255 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10275-10275 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10348-10348 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 10511-10511 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 15010118-15010118 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 15010255-15010255 lookup 1045 
+22040:	from all fwmark 0x8f/0x1ffff iif lo uidrange 15010275-15010275 lookup 1045 
+23000:	from all fwmark 0x8f/0x1ffff iif lo lookup 1045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 1000-1000 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10118-10118 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10254-10254 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10255-10255 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10275-10275 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10348-10348 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 10511-10511 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 15010118-15010118 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 15010255-15010255 lookup 1000000045 
+25000:	from all fwmark 0x0/0x10000 iif lo uidrange 15010275-15010275 lookup 1000000045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 1000-1000 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10118-10118 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10254-10254 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10255-10255 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10275-10275 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10348-10348 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 10511-10511 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 15010118-15010118 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 15010255-15010255 lookup 1045 
+29040:	from all fwmark 0x0/0xffff iif lo uidrange 15010275-15010275 lookup 1045 
+31000:	from all fwmark 0x0/0xffff iif lo lookup 1045 
+32000:	from all unreachable
