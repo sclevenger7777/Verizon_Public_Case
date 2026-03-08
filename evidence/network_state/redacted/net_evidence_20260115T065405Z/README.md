@@ -14,3 +14,6 @@ Redacted classes:
 - LAN IPv4 / gateway
 - home IPv6 GUA / ULA prefixes
 - unrelated app inventory from NetworkRequest blocks
+
+Additional redaction update:
+- Removed residual human-readable Wi-Fi network labels from the public-safe derivative set.
