@@ -1,0 +1,13 @@
+[INFO] Root: [REDACTED_PATH]
+[INFO] Out:  [REDACTED_PATH]
+[INFO] Using ripgrep (rg)
+[INFO] Candidate files: 994
+[INFO] apn: 17327 hits
+[INFO] validation: 13699 hits
+[INFO] pco_activation: 1045 hits
+[INFO] ims: 200088 hits
+[INFO] instability: 13527 hits
+[INFO] qos_rf: 4924 hits
+[OK] Summary: [REDACTED_PATH]
+[OK] Master TSV: [REDACTED_PATH]
+[OK] Done.

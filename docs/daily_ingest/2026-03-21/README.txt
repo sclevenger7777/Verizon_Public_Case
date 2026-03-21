@@ -1,0 +1,17 @@
+Output directory: [REDACTED_PATH]
+
+Primary files:
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+
+Per-signal files:
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+- [REDACTED_PATH]
+
+Logs:
+- [REDACTED_PATH]
+- [REDACTED_PATH]
