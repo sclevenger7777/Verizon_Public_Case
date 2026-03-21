@@ -9,3 +9,28 @@ raw_candidates/
 # Editor / shell noise
 *~
 .DS_Store
+
+# === Verizon public repo raw-freeze policy ===
+raw_candidates/
+core/net_evidence_core/
+core/pcap_summaries/
+*.pcap
+*.pcapng
+*.cap
+*.qmdl
+*.sdm
+*.dmp
+*.diag
+*.bin
+*.mbn
+*.qcn
+*.gz
+*.tgz
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.7z
+*.apks
+*.apkm
+*.xapk
