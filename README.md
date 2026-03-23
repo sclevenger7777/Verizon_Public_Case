@@ -13,55 +13,38 @@ This repository contains a curated, integrity-checked subset of a larger private
 
 All observations correspond to this exact repository state.
 
----
-
 ## Contents
 
 core/
-  net_evidence_core/     Controlled radio/telephony logging runs with state + probe logs
-  network_state/         Extracted network state, bearer lifecycle, and validation artifacts
+  net_evidence_core/     Controlled radio/telephony capture runs with state-plus-probe logs
+  network_state/         Extracted network state, bearer life-cycle, and validation artefacts
 
 manifests/
   Review manifests
-  Tree hash verification logs
-  Integrity verification outputs
+  Tree-hash verification logs
+  Integrity-verification outputs
 
 SHA256SUMS_public_tree.txt
-  SHA-256 checksums for all files in this public tree.
+  SHA-256 checksums for every file in this public tree.
 
 ---
 
 ## Redaction Policy
 
-This public repository excludes:
+This public repository intentionally excludes
 
-- large binary archives  
-- unrelated or third-party personal data  
-- raw diagnostic outputs not required for reproducibility  
+- large binary archives
+- any third-party or unrelated personal data
+- raw diagnostic outputs that are not required for reproducibility
 
-This repository is derived from:
+The repository is derived from
 
-- radio / telephony logs (RIL, IMS, service state)  
-- system-level network state artifacts  
-- structured evidence extractions  
+- radio / telephony logs (RIL, IMS, service-state)
+- system-level network-state artefacts
+- structured evidence extractions
 
-Purpose:
+Its purpose is to
 
 - preserve evidentiary integrity  
 - enable reproducibility  
 - avoid unnecessary exposure of unrelated data  
-
----
-
-## Status
-
-This repository reflects:
-
-- user-collected measurements  
-- reproducible system behavior  
-- integrity-verified artifacts  
-
-It does not represent:
-
-- a carrier-issued analysis  
-- a regulatory determination

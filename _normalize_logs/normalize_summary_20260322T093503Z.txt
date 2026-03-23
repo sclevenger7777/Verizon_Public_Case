@@ -1,0 +1,18 @@
+VERIZON SCRIPT NORMALIZATION SUMMARY
+generated=Sun Mar 22 04:35:11 CDT 2026
+repo=/storage/emulated/0/Verizon_Public_Case
+intake=/storage/emulated/0/Verizon_Public_Case/tools/intake_legacy_verizon_scripts_20260322T093043Z
+inventory=/storage/emulated/0/Verizon_Public_Case/_normalize_logs/normalize_inventory_20260322T093503Z.tsv
+manifest=/storage/emulated/0/Verizon_Public_Case/_normalize_logs/normalize_manifest_20260322T093503Z.sha256
+
+counts_by_category:
+9 analysis
+13 build
+15 capture
+9 consolidate
+5 discovery
+8 fixups
+2 freeze
+4 indexing
+17 misc
+4 register

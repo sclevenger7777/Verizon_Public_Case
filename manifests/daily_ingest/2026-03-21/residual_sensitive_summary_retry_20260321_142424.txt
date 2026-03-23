@@ -1,6 +1,0 @@
-== residual hits by file ==
-
-== residual hits by type ==
-
-== total residual hits ==
-0

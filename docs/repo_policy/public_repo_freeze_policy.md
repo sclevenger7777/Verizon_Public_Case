@@ -8,7 +8,7 @@ Do not add:
 - raw capture bundles
 - raw network dumps
 - raw mirrored evidence trees
-- packet captures
+- s
 - modem/diag binaries
 - compressed forensic archives
 - app package bundles

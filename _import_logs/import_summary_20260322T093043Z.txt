@@ -1,0 +1,8 @@
+VERIZON SCRIPT IMPORT SUMMARY
+generated=Sun Mar 22 04:30:50 CDT 2026
+src=/data/data/com.termux/files/home
+repo=/storage/emulated/0/Verizon_Public_Case
+dest=/storage/emulated/0/Verizon_Public_Case/tools/intake_legacy_verizon_scripts_20260322T093043Z
+imported_count=86
+inventory=/storage/emulated/0/Verizon_Public_Case/_import_logs/import_inventory_20260322T093043Z.tsv
+manifest=/storage/emulated/0/Verizon_Public_Case/_import_logs/import_manifest_20260322T093043Z.sha256

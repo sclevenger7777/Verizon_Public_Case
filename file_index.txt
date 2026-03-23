@@ -1,0 +1,17 @@
+/storage/emulated/0/Verizon_Public_Case/.git/COMMIT_EDITMSG
+/storage/emulated/0/Verizon_Public_Case/.git/FETCH_HEAD
+/storage/emulated/0/Verizon_Public_Case/.git/HEAD
+/storage/emulated/0/Verizon_Public_Case/.git/config
+/storage/emulated/0/Verizon_Public_Case/.git/description
+/storage/emulated/0/Verizon_Public_Case/.git/index
+/storage/emulated/0/Verizon_Public_Case/.gitignore
+/storage/emulated/0/Verizon_Public_Case/README.md
+/storage/emulated/0/Verizon_Public_Case/SHA256SUMS_public_tree.txt
+/storage/emulated/0/Verizon_Public_Case/analysis/session_instability_analysis_2026-03-06.md
+/storage/emulated/0/Verizon_Public_Case/file_index.txt
+/storage/emulated/0/Verizon_Public_Case/manifests/verizon_public_sha256_20260308T135536Z.txt
+/storage/emulated/0/Verizon_Public_Case/manifests/verizon_public_sha256_20260308T135536Z.txt.sha256
+/storage/emulated/0/Verizon_Public_Case/manifests/verizon_public_tree_20260308T135536Z.tsv
+/storage/emulated/0/Verizon_Public_Case/manifests/verizon_public_tree_20260308T135536Z.tsv.sha256
+/storage/emulated/0/Verizon_Public_Case/raw_candidates/evidence_telereg_20260115T071837Z.txt
+/storage/emulated/0/Verizon_Public_Case/run_now.sh
