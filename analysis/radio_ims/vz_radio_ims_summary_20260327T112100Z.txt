@@ -1,0 +1,16 @@
+==[ VZ RADIO/IMS SUMMARY ]==
+Source TSV    : /data/data/com.termux/files/home/storage/downloads/verizon_case_master_20260219T162625Z/00_case_docs/vz_radio_ims_table_20260327T112100Z.tsv
+Total events  : 1348
+
+[CATEGORY COUNTS]
+    697 IMS_OTHER
+    644 IMS_EPDG_EVENT
+      7 IMS_REG_EVENT
+
+[BUCKET COUNTS]
+   1348 ims
+
+[CATEGORY x BUCKET CROSS-TAB]
+697 ims	IMS_OTHER
+644 ims	IMS_EPDG_EVENT
+7 ims	IMS_REG_EVENT
