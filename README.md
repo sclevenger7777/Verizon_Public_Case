@@ -95,3 +95,6 @@ A clean verification confirms that the public evidence tree matches the committe
 Public redacted technical dossier.
 
 No carrier-side RCA has been provided in this repository.
+
+
+After Verizon was notified that a public evidence repository existed and could be reviewed, the line’s behavior changed materially. Since that point, the service has shown sustained stability and repeatable FCC/Mobile user-plane throughput. Verizon has not provided a written RCA, ticket disposition, provisioning-change notice, or confirmation that any account, SOC, IMS, APN/DNN, eSIM, routing, policy, or network-profile correction was made. Therefore, the current status should be recorded as apparently remediated after evidence disclosure, cause unconfirmed.
